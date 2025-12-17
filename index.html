@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duc Linh | Python Developer Portfolio</title>
+    <style>
+        /* Cấu hình giao diện Dark Mode đơn giản */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117; /* Màu nền GitHub Dark */
+            color: #c9d1d9;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            border-bottom: 1px solid #30363d;
+        }
+        h1 { color: #58a6ff; margin-bottom: 10px; }
+        .bio { font-size: 1.2rem; color: #8b949e; }
+        
+        .section { margin: 40px 0; }
+        h2 { border-bottom: 2px solid #30363d; padding-bottom: 10px; color: #fff; }
+        
+        /* Card dự án */
+        .project-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: #8b949e;
+        }
+        .project-title { font-weight: bold; font-size: 1.1rem; color: #58a6ff; text-decoration: none; }
+        .tech-stack { font-size: 0.9rem; color: #8b949e; margin-top: 10px; }
+        .btn {
+            display: inline-block;
+            background: #238636;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        .btn:hover { background: #2ea043; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://github.com/Lucas290805.png" alt="Avatar" style="border-radius: 50%; width: 150px; border: 3px solid #58a6ff;">
+            <h1>Đức Linh (Lucas)</h1>
+            <p class="bio">Data Science Student | Python Enthusiast | Machine Learning</p>
+            <p>📍 Vietnam • 📧 linh290805@gmail.com</p> <a href="https://github.com/Lucas290805" class="btn">Ghé thăm GitHub Profile</a>
+        </header>
+
+        <div class="section">
+            <h2>🚀 Kỹ năng & Công nghệ</h2>
+            <ul>
+                <li><strong>Ngôn ngữ:</strong> Python (Chuyên sâu), SQL, HTML/CSS cơ bản.</li>
+                <li><strong>Data Science:</strong> Pandas, NumPy, Matplotlib, Scikit-learn.</li>
+                <li><strong>Machine Learning:</strong> YOLOv8, SVM Models, Data Preprocessing.</li>
+                <li><strong>Tools:</strong> VS Code, Git/GitHub, Jupyter Notebook.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>💻 Dự án & Quá trình học tập</h2>
+            
+            <div class="project-card">
+                <a href="https://github.com/Lucas290805/Python-Learning-Process" class="project-title">📂 Python Learning Process (University Labs)</a>
+                <p>Kho lưu trữ toàn bộ quá trình học tập, bài tập thực hành và đồ án môn học tại trường đại học.</p>
+                <div class="tech-stack">🔹 Python 🔹 Data Analysis 🔹 Algorithms</div>
+                <a href="https://github.com/Lucas290805/Python-Learning-Process" class="btn">Xem Code & Tài liệu</a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://github.com/Lucas290805/SVM_model" class="project-title">🤖 Spam Email Classifier (SVM)</a>
+                <p>Xây dựng mô hình phân loại Email rác sử dụng thuật toán Support Vector Machine.</p>
+                <div class="tech-stack">🔹 Machine Learning 🔹 Scikit-learn</div>
+                <a href="https://github.com/Lucas290805/SVM_model" class="btn">Xem Code</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p style="text-align: center; color: #8b949e; font-size: 0.8rem;">© 2025 Duc Linh. Built with GitHub Pages.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
